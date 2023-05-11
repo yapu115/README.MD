@@ -12,12 +12,12 @@ El proyecto conecta un botón, 4 luces led, un display de 7 segmento y un piezo 
 
 La funcion se encarga de encender los leds, sonar el piezo a una frecuencia determinada e indicar cuanto falta para la estacion final a traves del display, todo al mismo tiempo y durante las 4 estaciones. Esto solo se ejecutará luego de presionar el botón. Al mismo tiempo se encarga de dejar mensajes para que el usuario sepa en que estacion está o a cual se dirige
 
-### Funcion principal
+## Funcion principal
 
 La funcion "estaciones" inicia solo si el digitalRead del botón es 0, es decir cuando se pulse el botón. Esto inicia el código con  la llegada a "Moreno" en la cual se mostrará un mensaje y luego se encenderá el display con el numero 3 y sonará el piezo indicando que llegó a la estacion, luego se apagará el display y el led y esperará 5 segundos (simulando un viaje) mostrando cual es la siguiente estacion por consola. 
 Esto sucederá otras 3 veces pero el numero del display se irá reduciendo hasta llegar a cero y el piezo tendrá sonidos de distinta frecuencia en cada estación. Luego de llegar a Constitucion volverá de vuelta a Moreno.
 
-#### Loop y funcion estaciones
+## Loop y funcion estaciones
 
 ```C++
 void loop()
