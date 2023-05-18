@@ -10,6 +10,9 @@
 
 ![Imagen del montacargas)](Montacargas.png)
 
+## ESquema del montacargas
+![Imagen del esquema](esquema.png)
+
 ## Descripcion
 
 El proyecto conecta 3 botones, un display de 7 segmentos y dos leds para simular un montacargas, en el que se puede subir o bajar desde el piso 0 al 9.
